@@ -1,0 +1,333 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navigate {
+    height: 70px;
+    width: 100%;
+    background-color: #34495E;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul {
+
+    display: flex;
+    color: white;
+    gap: 30px;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    height: 400px;
+    width: 400px;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 90px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: transparent;
+
+
+
+}
+
+.left {
+    padding-left: 75px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#top {
+    align-items: center;
+    background-color: blue;
+    height: 40px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 90px;
+    padding-top: 5px;
+    border-radius: 25px;
+    color: white;
+
+}
+
+#top:hover {
+    background-color: red;
+    color: black;
+    transition: ease-out .9s;
+}
+
+.login {
+    display: flex;
+    gap: 7px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#ok {
+    text-align: center;
+    margin-top: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+}
+
+#name {
+
+    margin-left: 90px;
+    margin-top: 20px;
+    border-radius: 25px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    padding: 2px;
+
+}
+
+#email {
+
+    margin-left: 90px;
+    margin-top: 6px;
+    border-radius: 25px;
+    padding: 2px;
+    height: 30px;
+    width: 250px;
+    text-align: center;
+}
+
+#password {
+    border-radius: 25px;
+    height: 30px;
+    width: 250px;
+    padding: 2px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 5px;
+
+}
+
+.fa-brands {
+    gap: -50px;
+    color: green;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: medium;
+    color: blue;
+}
+
+h4:hover {
+    cursor: pointer;
+
+}
+
+h3 {
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 8px
+}
+
+.align {
+    display: flex;
+    gap: 8px;
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.facebook {
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    height: 40px;
+    width: 250px;
+    margin-left: 90px;
+    gap: 15px;
+}
+
+.fa-brands {
+    background-color: blue;
+    color: white;
+
+    margin-right: 10px;
+}
+
+.google {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    height: 40px;
+    width: 250px;
+
+    gap: 15px;
+    margin-top: 4px;
+    margin-left: 90px;
+    text-align: center;
+
+}
+
+#ai {
+    background-color: white;
+    color: darkgreen;
+    gap: 20px;
+
+
+
+
+}
+
+#top:hover {
+    cursor: pointer;
+
+    animation: forwards;
+}
+
+.facebook:hover {
+    cursor: pointer;
+}
+
+#ai:hover {
+    cursor: pointer;
+}
+
+.google:hover {
+    cursor: pointer;
+}
+
+#enable {
+    color: blue;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #0B1825;
+    padding: 40px;
+    color: white;
+    padding-top: 275px;
+    margin-top: 140px;
+
+
+}
+
+#joint {
+    margin-left: 50px;
+}
+
+#fix {
+    padding-left: 120px;
+}
+
+#come {
+    padding-left: 140px;
+    color: gold;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+    margin-top: -200px;
+    background: radial-gradient(45deg, red, blue, blueviolet, pink, yellow, orange);
+    margin-left: 0px;
+
+}
+
+.footer-column h2 {
+    margin-bottom: 10px;
+    background: radial-gradient(45deg, red, blue, blueviolet, pink, yellow, orange);
+    margin-left: -170px;
+    color: gold;
+    font-size: x-large;
+}
+
+.footer-column p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #ccc;
+}
+
+.footer-column ol {
+    margin: 0;
+
+    list-style: none;
+    color: #ccc;
+    padding-left: 80px;
+}
+
+ol {
+    list-style: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-left: 100px;
+}
+
+a:hover {
+    color: gold;
+}
+
+.footer-column:hover {
+    cursor: pointer;
+
+}
+
+#tube {
+    color: red;
+    background-color: #0B1825;
+}
+
+#itter {
+    color: blue;
+    background-color: #0B1825;
+}
+
+
+
+body {
+    background-image: url(../images/green.png);
+    background-size: cover;
+
+}
+
+#listed:hover {
+    transform: translateX(20px);
+    transition: 0.3s ease-in-out;
+   
+}
+
+
+.social-icons:hover {
+    transform: translateX(20px);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.info:hover {
+    transform: translateX(20px);
+    transition: 0.3s ease-in-out;
+}

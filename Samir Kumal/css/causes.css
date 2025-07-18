@@ -1,0 +1,420 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+a:hover {
+    color: #ffd700;
+}
+
+section {
+    height: 90px;
+    width: 100%;
+    background-color: #2C3E50;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #2E7D32;
+    text-align: center;
+}
+
+img {
+    height: 500px;
+    width: 700px;
+    border-radius: 10px;
+    gap: 15px;
+    border: 3px solid #ccc;
+    box-shadow: 8px 12px 12px royalblue;
+}
+
+.fa-solid {
+    color: gold;
+}
+
+h2 {
+    margin-left: 90px;
+    margin-top: 25px;
+    color: #27AE60;
+
+}
+
+body {
+    background: #E1F5FE;
+}
+
+.industry {
+    font-size: x-large;
+    font-weight: 400;
+    padding-right: 140px;
+    margin-left: 80px;
+    color: #000000;
+    word-spacing: 0.5px;
+    text-align: justify;
+}
+
+
+.defer {
+    font-size: x-large;
+    font-weight: 400;
+    margin-left: 90px;
+    margin-right: 100px;
+    text-align: justify;
+    color: #000000;
+}
+
+.burn {
+    font-size: x-large;
+    font-weight: 400;
+    margin-right: 140px;
+    margin-left: 80px;
+    text-align: justify;
+    color: #000000;
+}
+
+.erupt {
+    font-size: x-large;
+    font-weight: 400;
+    margin-left: 90px;
+    margin-right: 100px;
+    text-align: justify;
+    color: #000000;
+}
+
+.causes {
+    display: flex;
+    margin-top: 25px;
+    gap: 20px;
+
+}
+
+#factory {
+    margin-left: 100px;
+    margin-right: 15px;
+    height: 400px;
+    width: 500px;
+    animation: factory 0.9s ease-in-out forwards;
+    animation-fill-mode: forwards;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: paused;
+    box-shadow: 0px 2px 10px 10px #50C878;
+
+}
+
+#tree {
+    margin-right: 140px;
+    height: 400px;
+    width: 500px;
+    box-shadow: 0px 2px 12px 12px #50C878;
+    animation: tree 0.9s ease-in-out forwards;
+    animation-fill-mode: forwards;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: paused;
+}
+
+#truck {
+    margin-left: 80px;
+    box-shadow: #CC4700 0px 2px 12px 12px;
+    animation: truck 0.9s ease-in-out forwards;
+    animation-fill-mode: forwards;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: paused;
+    height: 400px;
+    width: 500px;
+}
+
+
+#volcano {
+    height: 400px;
+    width: 500px;
+    margin-right: 130px;
+    box-shadow: 0px 2px 12px 12px #CC4700;
+    animation: volcano 0.9s ease-in-out forwards;
+    animation-fill-mode: forwards;
+    animation-duration: 0.9s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: paused;
+}
+
+.cause {
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.effect {
+    display: flex;
+    gap: 20px;
+}
+
+.ice {
+    height: 400px;
+    width: auto;
+    margin-left: 85px;
+    margin-right: 15px;
+}
+
+.explain {
+    font-size: x-large;
+    font-weight: 400;
+    margin-right: 135px;
+    text-align: justify;
+    padding-left: 20px;
+    color: #212121;
+}
+
+#hi {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+h3 {
+    margin-left: 85px;
+    font-size: x-large;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.deep {
+    display: flex;
+    gap: 15px;
+}
+
+.summary {
+    font-size: x-large;
+    font-weight: 400;
+    margin-left: 85px;
+    text-align: justify;
+    margin-right: 20px;
+    color: #212121;
+}
+
+.drought {
+    height: 400px;
+    width: auto;
+    margin-right: 130px;
+    margin-left: 20px;
+
+}
+
+.Calorie {
+    display: flex;
+    gap: 20px;
+}
+
+.heats {
+    height: 400px;
+    width: 600px;
+    margin-left: 85px;
+}
+
+.summarize {
+    font-size: x-large;
+    font-weight: 400;
+    text-align: justify;
+    margin-right: 130px;
+    margin-left: 20px;
+    color: #212121;
+}
+
+.key {
+    display: flex;
+    gap: 20px;
+}
+
+.forest {
+    height: 400px;
+    width: auto;
+    margin-right: 135px;
+    box-shadow: -12px 15px 13px orangered;
+}
+
+.sum {
+    font-size: x-large;
+    font-weight: 400;
+    margin-left: 85px;
+    text-align: justify;
+    margin-right: 20px;
+    color: #212121;
+}
+
+.ev {
+    height: 450px;
+    width: 800px;
+    margin-left: 85px;
+    margin-right: 20px;
+}
+
+.reason {
+    font-size: x-large;
+    font-weight: 400;
+    text-align: justify;
+    margin-right: 130px;
+    margin-left: 20px;
+}
+
+.electric {
+    display: flex;
+    gap: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #0B1825;
+    padding: 40px;
+    color: white;
+    padding-top: 275px;
+
+}
+
+#come {
+    padding-left: 80px;
+    color: gold;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+    margin-top: -200px;
+    background: radial-gradient(45deg, red, blue, blueviolet, pink, yellow, orange);
+    margin-left: 0px;
+
+}
+
+.footer-column h2 {
+    margin-bottom: 10px;
+    background: radial-gradient(45deg, red, blue, blueviolet, pink, yellow, orange);
+    margin-left: 0px;
+    color: gold;
+}
+
+.footer-column p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #ccc;
+}
+
+.footer-column ol {
+    margin: 0;
+
+    list-style: none;
+    color: #ccc;
+    padding-left: 80px;
+}
+
+ol {
+    list-style: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+
+.footer-column:hover {
+    cursor: pointer;
+
+}
+
+#listed:hover {
+    transform: translateX(15px);
+    transition: 0.3s ease-in-out;
+    
+
+}
+
+.info:hover {
+    transform: translateX(15px);
+    transition: 0.3s ease-in-out;
+}
+
+.social-icons:hover {
+    transform: translateX(15px);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+#tube {
+    color: red;
+}
+
+#itter {
+    color: blue;
+}
+
+@keyframes factory {
+    from {
+        transform: translateX(-125%);
+    }
+
+    to {
+        transform: translateX(0%);
+
+    }
+
+}
+
+@keyframes tree {
+    from {
+        transform: translateX(125%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+
+
+}
+
+@keyframes truck {
+    from {
+        transform: translateX(-125%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+
+}
+
+@keyframes volcano {
+    from {
+        transform: translateX(125%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+
+}
+
+#help {
+    padding-left: 80px;
+}

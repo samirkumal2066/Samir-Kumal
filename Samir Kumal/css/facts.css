@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    background-color: #2C3E50;
+    padding: 20px 0;
+    color: #ECF0f1;
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+}
+
+h3 {
+    margin-top: 25px;
+    text-align: center;
+    color: goldenrod;
+    font-size: xx-large;
+}
+
+h2 {
+    color: gold;
+}
+
+#come {
+    color: gold;
+    padding-left: 75px;
+}
+
+.navigate {
+    height: 100px;
+    width: 100%;
+    background-color: #34495E;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.head {
+
+    display: flex;
+    color: white;
+    gap: 30px;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    color: goldenrod;
+}
+
+body {
+    background-color: #E1F5FE;
+}
+
+ul {
+    padding-left: 50px;
+    font-size: larger;
+}
+
+li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: red;
+    list-style: none;
+    font-weight: 400;
+}
+
+p {
+    font-size: large;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #0B1825;
+    padding: 40px;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+    margin-top: 0px;
+    background: radial-gradient(45deg, red, blue, blueviolet, pink, yellow, orange);
+
+}
+
+.footer-column h2 {
+    margin-bottom: 10px;
+    background: radial-gradient(45deg, red, blue, blueviolet, pink, yellow, orange);
+}
+
+.footer-column p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #ccc;
+}
+
+.footer-column ol {
+    margin: 0;
+
+    list-style: none;
+    color: #ccc;
+    padding-left: 80px;
+}
+
+ol {
+    list-style: none;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+h4 {
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 200px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+.info {
+    color: white;
+
+    word-spacing: 2px;
+    margin-left: 15px;
+    text-align: justify;
+    font-weight: 400;
+    margin-top: 10px;
+    padding-right: 15px;
+    hyphens: auto;
+}
+
+
+
+
+
+#list {
+    font-size: larger;
+    font-weight: 400;
+    list-style: disc;
+
+}
+
+.info {
+    color: white;
+
+    word-spacing: 2px;
+    margin-left: 15px;
+    text-align: justify;
+    font-weight: 400;
+    margin-top: 10px;
+    padding-right: 15px;
+    hyphens: auto;
+}
+
+
+
+
+
+#list {
+    font-size: larger;
+    font-weight: 400;
+    list-style: disc;
+
+}
+
+.hari {
+    max-width: 300px;
+
+}
+
+#reverse {
+    max-width: 300px;
+
+
+}
+
+.amplify {
+    max-width: 300px;
+
+}
+
+
+#tube {
+    color: red;
+
+    height: 30px;
+    width: auto;
+}
+
+#itter {
+    color: blue;
+}
+
+.logic {
+    gap: 60px;
+}
+
+.copy {
+    height: 60px;
+    background-color: #2C3E50;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+}
+
+#logo {
+    position: absolute;
+    left: 20px;
+    height: 90px;
+    width: auto;
+
+
+}
+
+#first {
+    color: gold;
+    font-size: x-large;
+
+}
+
+#second {
+    color: gold;
+    font-size: x-large;
+}
+
+#listed {
+    list-style: none;
+    padding-left: -200px;
+    color: white;
+}
+
+h5 {
+    font-size: large;
+    padding-left: 25px;
+    color: darkturquoise;
+}
+
+.footer-column:hover {
+    cursor: pointer;
+}
+
+#listed:hover {
+    transform: translateX(20px);
+    transition: 0.3s ease-in-out;
+
+    cursor: pointer;
+}
+
+.social-icons:hover {
+    transform: translateX(20px);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.info:hover {
+    transform: translateX(20px);
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#click {
+    height: 70px;
+    width: 100px;
+    background-color: blue;
+}
+
+
+.rotate {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+#click{
+    cursor: pointer;
+}
+.rotate:hover{
+    color: red;
+    
+
+}
+#play {
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    border-radius: 25px;
+
+}
